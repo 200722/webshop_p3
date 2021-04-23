@@ -1,0 +1,119 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  .flex{
+    display:flex;
+  }
+  .justify-between{
+    justify-content: space-between;
+  }
+  .center{
+      align-items: center;
+  }
+  
+  nav .top{
+      padding:1.5rem 0;
+  }
+  nav .navbar a{
+    text-decoration:none;
+    font-family:"Raleway-semibold";
+    font-size:1rem;
+    padding:1rem 1.5rem;
+    transition:all .3s ease;
+  
+  }
+
+h1{
+    text-align: center;
+    border: 2px solid ;
+    background-color: blanchedalmond;
+}
+  
+  /*blokjes */
+
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+  }
+  /* about */
+  .random{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+   
+
+  }
+
+  
+ 
+  /*footer Contact */
+  footer{
+    background-color: rgb(235, 233, 241);
+    padding:4rem 0;
+    margin: 1rem;
+  }
+  footer .container{
+    display:flex;
+  }
+  
+  footer .box{
+    flex:1;
+    margin-right:2rem;
+    text-align:center;
+  }
+  .container2 ul li{
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  footer .box ul{
+    list-style-type: none;
+  }
+  footer .box ul li a{
+    text-decoration: none;
+    transition: all .3s ease;
+  }
+  footer .box ul li a:hover{
+    color:powderblue;
+  }
+  footer .box h3{
+    padding-bottom:1rem;
+    margin-bottom:1rem;
+  }
+  
+  footer .box p{
+    line-height: 1.6;
+    margin-bottom:1rem;
+  }
+  footer.copyright{
+    padding:1rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+    background-color:white;
+  }
+  .box-con{
+    margin-left: -153px;
+    padding-left: 20px;
+  }
+/* star */
+.checked {
+    color: orange;
+  }
+
+  /* Contact */
+  .midden{
+    margin: 30%;
+    margin-top: 5%;
+   
+}
+/* productId */
+.productId{
+  visibility:  hidden;
+
+}
+  

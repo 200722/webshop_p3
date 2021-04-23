@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampen</title>
+    <link rel="stylesheet" href="./assets/css/cost.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- navigationbar -->
+    <nav>
+        <div class="top">
+            <div class="container flex justify-between">
+                <div class="Contact flex center">
+                    <img src="./icons/phone.svg" alt="">
+                    <div>
+                        <h5>Call US: 0633388915</h5>
+                        <h6>E-mail : ziedanireem@gmail.com</h6>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/logo.png" alt="" width="150px" height="50px">
+                </div>
+                <div class=" flex center">
+                    <img src="./icons/clock.svg" alt="">
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar shadow">
+            <div class="container flex justify-center">
+                <a href="#" class="active">Home</a>
+                <a href="about.php">about</a>
+                <a href="Products.php" id="Products">Products</a>
+                <a href="#">Blog</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Contact.html">Contact</a>
+                <!-- cart -->
+                <form action="#" class="font-size-14 font-rale">
+                      <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class=""><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark ">0</span>
+                      </a>
+                  </form>
+            </div>
+        </div>
+    </nav>
+
+    <form class="midden" action="results.php" method="POST">
+        <div>
+            <p  class="btn btn-warning font-size-12">Aanhef</p>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <label for="name"  class="btn btn-warning font-size-12">Name</label>
+            <input type="text" name="voornaam" placeholder="voornaam" required> &nbsp; &nbsp;
+            <input type="text" name="tussenvogsel" placeholder="tussenvogsel"> &nbsp; &nbsp;
+            <input type="text" name="achternaam" placeholder="achternaam" required> &nbsp; &nbsp;
+        </div>
+        <br>
+        <div>
+            <label  class="btn btn-warning font-size-12">Postcode</label>
+            <input type="text" name="Postcode" placeholder="1234AB" required>
+        </div>
+        <br>
+        <div>
+            <label  class="btn btn-warning font-size-12">Huisnummer</label>
+            <input type="number" name="Huisnummer" placeholder="huisnummer" required>
+            <input type="text" name="Huisnummer" placeholder="toev" required>
+        </div>
+        <div>
+            <label  class="btn btn-warning font-size-12">Woonplaats</label>
+            <input type="text" name="woonplaats" placeholder="woonplaats" required>
+        </div>
+        <br>
+        <br>
+        <div>
+            <span><i class="fas fa-question-circle"></i></span><label  class="btn btn-warning font-size-12" for="email">Email</label>
+            <input type="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <span><i class="fas fa-question-circle"></i></span><label for="email"  class="btn btn-warning font-size-12">Telefoonnummer</label>
+            <input type="number" name="tele" required>
+        </div>
+        <br>
+        <div>
+            <span><i class="fas fa-question-circle"></i></span><label for="date"  class="btn btn-warning font-size-12">geboortedatum</label>
+            <input type="date" name="geboortedatum" min="2021-12-01">
+        </div>
+        <div>
+            <span><i class="fas fa-question-circle"></i></span><label for="date"  class="btn btn-warning font-size-12">rekeningnummer</label>
+            <input type="nummer" name="rekeningnummer">
+        </div>
+        <br>
+        <div>
+            <div class="color">
+                <button type="submit" class="btn btn-warning font-size-12">verder</button>
+            </div>
+            <footer class="
+            box-con">
+                <div class="container">
+                    <div class="box">
+                        <h3>about us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta libero vero fugit corporis
+                            nulla,
+                        </p>
+                        <button class="btn ">Read More</button>
+                    </div>
+                    <div class="box">
+                        <h3> Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">about us</a>
+                            </li>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Follow Us</h3>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/codersgyan">
+                                        <img src="./icons/facebook.svg" alt="">
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/CoderGyan">
+                                        <img src="./icons/twitter.svg" alt="">
+                                        <span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./icons/google.svg" alt="">
+                                        <span>Google +</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/codersgyan/">
+                                        <img src="./icons/instagram.svg" alt="">
+                                        <span>Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Instagram</h3>
+                        <div class="container2">
+                            <ul>
+                                <li>
+                                    <div><a href="products.html"><img class="img-footer" src="assets/img/arstid.jpg"
+                                                width="200px" height="150px;" class="cofee" alt="cofee"></a></div>
+                                </li>
+                                <li>
+                                    <div><a href="products.html"><img class="img-footer" src="assets/img/gans.jpg"
+                                                width="200px" height="150px;" class="cofee" alt="img"></a></div>
+                                </li>
+                            </ul>
+                        </div>
+
+            </footer>
+            <footer class="copyright">
+                <div>
+                    Copyright © 2020 .All rights reserved by <a href="https://www.instagram.com">Reem Ziedani</a>.
+                </div>
+            </footer>
+</body>
+
+</html>
